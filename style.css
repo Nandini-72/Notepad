@@ -1,0 +1,32 @@
+/* General Alignment to container using flexbox */
+.container{
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+/* Styling to the textarea */
+textarea {
+    width: 90vw;
+    color: #777;
+    font-size: 1.1rem;
+    min-height: 20rem;
+    border: 2px dashed rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+}
+/* Aligning buttons to center */
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* General styling to button */
+button{
+    margin:0 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 800;
+    background-color: blue;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+}
